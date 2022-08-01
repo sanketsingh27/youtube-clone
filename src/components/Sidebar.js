@@ -8,5 +8,10 @@ export default function Sidebar() {
     { label: "Watch Later", path: "/watchlater", logo: <FaRegCalendarAlt /> },
     { label: "history", path: "/history", logo: <FaHistory /> },
   ];
-  return <div className=" border-2 border-blue md:w-64 flex flex-col">{links}</div>;
+  return (
+    <>
+      <h1>This is side bar</h1>
+      <div className=" border-2 border-blue md:w-64 flex flex-col">{links}</div>{" "}
+    </>
+  );
 }
