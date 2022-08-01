@@ -1,6 +1,5 @@
-import "./App.css";
 import Mockman from "mockman-js";
-function App() {
+function MockApi() {
   return (
     <div className="MockAPI">
       <Mockman />
@@ -8,4 +7,4 @@ function App() {
   );
 }
 
-export default App;
+export default MockApi;

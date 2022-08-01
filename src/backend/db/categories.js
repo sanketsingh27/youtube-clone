@@ -8,20 +8,26 @@ import { v4 as uuid } from "uuid";
 export const categories = [
   {
     _id: uuid(),
-    categoryName: "Computer Programming",
+    categoryName: "Indian Classical",
     description:
-      "Computer programming is the process of designing and building an executable computer program to accomplish a specific computing",
+      "The classical music of the Indian subcontinent- it has two major traditions: the North Indian classical music known as Hindustani and the South Indian expression known as Carnatic.",
   },
   {
     _id: uuid(),
-    categoryName: "Frontend Development",
+    categoryName: "Indie India",
     description:
-      "Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application",
+      "Indian Independent music or Indie music is music produced independently by Indian singers from commercial record labels or their subsidiaries.",
   },
   {
     _id: uuid(),
-    categoryName: "Backend Development",
+    categoryName: "Bollywood",
     description:
-      "Backend Development is also known as server-side development. It is everything that the users don't see and contains behind-the-scenes activities that occur when performing any action on a website.",
+      "Bollywood music is produced part of an album or the Hindi cinema majorly in the Hindi language.",
+  },
+  {
+    _id: uuid(),
+    categoryName: "English Pop",
+    description:
+      "English Pop or Popular music is a contemporary form of music in the English language that appeals to a very wide audience. It often includes a danceable tempo, easy to remember lyrics, and simple notation.",
   },
 ];
